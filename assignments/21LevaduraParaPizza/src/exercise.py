@@ -7,6 +7,7 @@ def main():
      h= float(input("Dame la harina en gramos: "))
 
      levadura = h*(50/1000)
+     levadura= round(levadura, 1)
      print("Necesitas estos gramos de levadura:", levadura )
 
 
